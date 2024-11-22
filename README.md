@@ -4,7 +4,8 @@ that deviate significantly from the normal behaviour.
 Using PyCaret, I have  implemented anomaly detection efficiently by testing the same dataset on different models
 like iforest,mcd,svm,cluster and more
 
-Key Features
+Key Features:
+
 Data Preprocessing: Handling missing values, normalizing features, and preparing the dataset.
 
 Modeling: Implementation of anomaly detection algorithms (e.g., Isolation Forest, One-Class SVM, or statistical methods).
