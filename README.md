@@ -12,10 +12,12 @@ Modeling: Implementation of anomaly detection algorithms (e.g., Isolation Forest
 
 Evaluation: Detailed analysis of the model's performance using metrics and visualizations.
 
-Requirements
+Requirements:
 
 Python 
+
 Libraries: pycaret,sklearn.cluster, KMeans, sklearn.metrics
 
 Conclusion:
+
 A detailed report shows how the Silhouette Score is changing with respect to number of clusters for each model
