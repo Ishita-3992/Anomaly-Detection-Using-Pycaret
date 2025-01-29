@@ -1,23 +1,65 @@
-Anomaly detection is a process of identifying unusual patterns or observations in a dataset
-that deviate significantly from the normal behaviour. 
+### Anomaly Detection using PyCaret
 
-Using PyCaret, I have  implemented anomaly detection efficiently by testing the same dataset on different models
-like iforest,mcd,svm,cluster and more
+#### Overview
 
-Key Features:
+Anomaly detection is the process of identifying unusual patterns or observations in a dataset that deviate significantly from normal behavior. This project leverages PyCaret to efficiently implement anomaly detection using multiple models such as Isolation Forest (iforest), Minimum Covariance Determinant (mcd), Support Vector Machine (svm), Clustering models, and more.
 
-Data Preprocessing: Handling missing values, normalizing features, and preparing the dataset.
+#### Key Features
 
-Modeling: Implementation of anomaly detection algorithms (e.g., Isolation Forest, One-Class SVM, or statistical methods).
+1. Data Preprocessing
 
-Evaluation: Detailed analysis of the model's performance using metrics and visualizations.
+Handling missing values
 
-Requirements:
+Normalizing features
 
-Python 
+Preparing the dataset for modeling
 
-Libraries: pycaret,sklearn.cluster, KMeans, sklearn.metrics
+2. Modeling
 
-Conclusion:
+Implementation of various anomaly detection algorithms:
 
-A detailed report shows how the Silhouette Score is changing with respect to number of clusters for each model
+Isolation Forest (iforest)
+
+One-Class SVM (svm)
+
+Minimum Covariance Determinant (mcd)
+
+Clustering-based approaches (KMeans, DBSCAN, etc.)
+
+3. Evaluation
+
+Detailed analysis of model performance using:
+
+Silhouette Score for clustering models
+
+Precision, Recall, and F1-Score for classification-based methods
+
+Visualizations such as scatter plots, decision boundaries, and anomaly heatmaps
+
+#### Requirements
+
+Ensure you have the following dependencies installed before running the project:
+
+```bash
+pip install pycaret scikit-learn pandas numpy matplotlib seaborn
+```
+
+#### Additional Libraries Used:
+
+sklearn.cluster (for clustering-based anomaly detection)
+
+sklearn.metrics (for evaluation)
+
+KMeans (for cluster-based modeling)
+
+#### Results and Insights
+
+A detailed report showcases how the Silhouette Score varies with respect to the number of clusters for different models.
+
+Comparative performance analysis of different anomaly detection techniques.
+
+Recommendations on selecting the best model based on dataset characteristics.
+
+#### Conclusion
+
+This project demonstrates an efficient way to detect anomalies using PyCaret and various machine learning techniques. The comparative study of multiple models helps in selecting the most effective approach for different datasets.
